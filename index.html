@@ -7,6 +7,7 @@
     <title>AI Russian Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>✒️AI Russian Poem Generator✒️</h1>
     </header>
@@ -15,10 +16,12 @@
             <input type="text" placeholder="Enter the topic of poem here"
             autofocus
             required
-            autocomplete="off"/>
-            <input type="submit"/>
+            autocomplete="off"
+            class="instructions"
+            />
+            <input type="submit" class="submit-button"/>
         </form>
-        <div>
+        <div class="poem">
             Услышишь гром и вспомнишь обо мне,
             <br />
             Подумаешь: она грозы желала…
@@ -34,6 +37,7 @@
     This AI project was coded by <a href="https://github.com/MotherofDragonLucca" target="_blank">Farida Scandrett</a> and is <a href="https://github.com/MotherofDragonLucca/Ruski-poem-generator" target="_blank">open-sourced on GitHub</a>
     and <a href="https://ai-ruski-poem-generator.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 </html>
