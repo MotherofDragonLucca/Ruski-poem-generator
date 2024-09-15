@@ -16,18 +16,21 @@
             <h1>✒️AI Russian Poem Generator✒️</h1>
         </header>
         <main>
-            <form id="poem-generator-form">
-                <input type="text" placeholder="Enter the topic of the Russian poem" autofocus required
-                    autocomplete="off" class="instructions" id="user-instructions" />
-                <input type="submit" class="submit-button" />
-            </form>
-            <div class="poem" id="poem"></div>
+            <div class="form-container">
+                <form id="poem-generator-form">
+                    <input type="text" placeholder="Enter the topic of the Russian poem" autofocus required
+                        autocomplete="off" class="instructions" id="user-instructions" />
+                    <input type="submit" class="submit-button" />
+                </form>
+                <div class="hint">i.e: Snow, St Petersburg or Ballet and even ❄️🏰🩰</div>
+            </div>
+            <div class="poem hidden" id="poem"></div>
         </main>
         <footer>
             This AI project was coded by <a href="https://github.com/MotherofDragonLucca" target="_blank">Farida
                 Scandrett</a> and is <a href="https://github.com/MotherofDragonLucca/Ruski-poem-generator"
-                target="_blank">open-sourced on GitHub</a>
-            and <a href="https://ai-ruski-poem-generator.netlify.app/" target="_blank">hosted on Netlify</a>
+                target="_blank">open-sourced on GitHub</a> and <a href="https://ai-ruski-poem-generator.netlify.app/"
+                target="_blank">hosted on Netlify</a>
         </footer>
     </div>
     <script src="src/index.js"></script>
