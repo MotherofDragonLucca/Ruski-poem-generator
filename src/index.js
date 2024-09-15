@@ -1,5 +1,4 @@
 function displayPoem(response) {
-  console.log("poem generated");
   const poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
   new Typewriter(poemElement, {
